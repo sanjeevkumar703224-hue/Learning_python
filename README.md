@@ -1,6 +1,5 @@
-# 🚀 Project DASARA
 
-## 300-Day AI Developer Journey
+## 300-Day Journey
 
 This repository contains my daily coding practice as I learn:
 

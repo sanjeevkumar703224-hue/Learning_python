@@ -1,4 +1,4 @@
-#DAY -02 (CONDITIONAL STATEMENTS)
+#DAY -02 (CONDITIONAL STATEMANTS)
 #PRACTICES EXAMPLES
 #EXAMPLE-01
 age = int(input())
@@ -139,4 +139,33 @@ else:
     print("Not Eligible to take Ticket")
 #LEETCODE DAY-02
 #PROBLEMS
-
+#1929. Concatenation of Array
+class Solution(object):
+    def getConcatenation(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        return nums + nums
+#1920. Build Array from Permutation
+class Solution(object):
+    def buildArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        ans = []
+        for i in range(len(nums)):
+            ans.append(nums[nums[i]])
+        return ans
+#1480. Running Sum of 1d Array
+class Solution(object):
+    def runningSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        for i in range(1,len(nums)):
+            nums[i] += nums[i-1]
+        return nums
+#

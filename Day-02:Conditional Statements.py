@@ -168,4 +168,15 @@ class Solution(object):
         for i in range(1,len(nums)):
             nums[i] += nums[i-1]
         return nums
-#
+#📌 Mini Project
+#Smart Login System
+username = "admin"
+password = "12345"
+
+u = input("Enter Username: ")
+p = input("Enter Password: ")
+
+if u == username and p == password:
+    print("✅ Login Successful")
+else:
+    print("❌ Invalid Username or Password")

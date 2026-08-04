@@ -1,4 +1,4 @@
-# 🚀 PROJECT DASARA – 300-Day AI Developer Journey
+# 🚀 PROJECT  – 300-Day AI Developer Journey
 
 ## 📖 About This Repository
 

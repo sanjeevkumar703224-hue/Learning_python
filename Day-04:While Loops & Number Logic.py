@@ -1,4 +1,4 @@
-history = [}
+history = []
 last_report = []
 
 while True:
